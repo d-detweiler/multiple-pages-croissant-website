@@ -3,16 +3,22 @@ body {
   background-color: blanchedalmond;
 }
 
-h1 {
+h1,
+p {
   text-align: center;
 }
 
-img {
+.croissant-photo {
   display: block;
-  margin: 30px;
-  max-width: 600px;
+  margin: 30px auto;
+  max-width: 100%;
+  border-radius: 10px;
 }
 
 a {
-  padding: 10px;
+  margin: 10px;
+}
+
+footer {
+  text-align: center;
 }
